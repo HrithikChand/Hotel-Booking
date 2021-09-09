@@ -1,7 +1,7 @@
 
 # Hotel Booking 
 
-This data describes dataset with hotel demand data. One of the hotels is a resort hotel and the other is a city hotel. Both datasets share the same structure. Each observation represents a hotel booking. Dataset comprehend bookings due to arrive between the 1st of July of 2015 and the 31st of August 2017, including bookings that effectively arrived and bookings that were canceled. 
+Descriptive analytics is employed to understand patterns, trends in the hotel booking data and see how they are affecting the hotel booking. 
 ## Acknowledgements
 
  - [Dataset](https://www.kaggle.com/mojtaba142/hotel-booking)
@@ -10,9 +10,14 @@ This data describes dataset with hotel demand data. One of the hotels is a resor
   
 ## Introduction
 
-Descriptive analytics can be employed to further understand patterns, trends. 
+This notebook will check with the hotel booking trend for two hotels. One of the hotels is a resort hotel and the other is a city hotel . Both datasets share the same structure, with 31 variables. Each observation represents a hotel booking. Both datasets comprehend bookings , including bookings that effectively arrived and bookings that were canceled.
+We will focus majorly on the cancled booking here . 
 
-With this notebook get more insight about how the the different factors are affecting the booking / cancellation of hotel rooms by the help of Exploratory Data Analysis . 
+With the different variables we will try to analyze and check if there is any pattern with the cancellation of booking. 
+We will get other insights as well like when the best time of year to book a hotel room is? or if what kind of booking is done ? and how long before someone will book the room and not cancel.
+
+So by the end of analysis we will have a complete overview and have clear idea how each variable is affecting cancellation thus will help in better management.
+ 
 ## 🛠 Libraries worked upon
 - Numpy
 - Pandas
